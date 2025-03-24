@@ -1,0 +1,156 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    >
+
+    <ScrollView android:id="@+id/iphone_13___13_pro___1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+
+            <RelativeLayout android:id="@+id/page_iphone_13___13_pro___1_ek1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View   android:id="@+id/_bg__iphone_13___13_pro___1_ek2"
+                    android:background="@drawable/_bg__iphone_13___13_pro___1_ek2_shape"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="412dp"
+                    android:layout_height="915dp" />
+
+                <ImageView android:id="@+id/new_beginnings_1"
+                    android:src="@drawable/new_beginnings_1"
+                    android:contentDescription="new_beginnings_1"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="99dp"
+                    android:layout_width="410dp"
+                    android:layout_height="800dp" />
+
+
+                <RelativeLayout android:id="@+id/group_1"
+                    android:layout_marginTop="-931dp"
+                    android:layout_marginStart="-1245dp"
+                    android:layout_marginEnd="-500dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <View   android:id="@+id/rectangle_2"
+                        android:background="@drawable/rectangle_2_shape"
+                        android:layout_marginStart="1046dp"
+                        android:layout_marginTop="1206dp"
+                        android:layout_width="342dp"
+                        android:layout_height="119dp" />
+
+                    <View   android:id="@+id/rectangle_2_ek1"
+                        android:background="@drawable/rectangle_2_ek1_shape"
+                        android:layout_marginStart="1086dp"
+                        android:layout_marginTop="1158dp"
+                        android:layout_width="212dp"
+                        android:layout_height="93dp" />
+
+                    <View   android:id="@+id/rectangle_2_ek2"
+                        android:background="@drawable/rectangle_2_ek2_shape"
+                        android:layout_marginStart="1574dp"
+                        android:layout_marginTop="1229dp"
+                        android:layout_width="210dp"
+                        android:layout_height="131dp" />
+
+                    <View   android:id="@+id/rectangle_2_ek3"
+                        android:background="@drawable/rectangle_2_ek3_shape"
+                        android:layout_marginStart="1488dp"
+                        android:layout_marginTop="1289dp"
+                        android:layout_width="342dp"
+                        android:layout_height="148dp" />
+
+                </RelativeLayout>
+
+                <com.google.android.material.textview.MaterialTextView android:id="@+id/login"
+                    android:fontFamily="@font/inter"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/login_color"
+                    android:layout_marginLeft="269dp"
+                    android:layout_marginTop="600dp"
+                    android:layout_width="61.5dp"
+                    android:layout_height="28.5dp"
+                    android:text="@string/login_string"
+                    />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/Signupbtn"
+                        android:backgroundTint="@color/black"
+                        android:layout_marginStart="53dp"
+                        android:layout_marginTop="533dp"
+                        android:paddingTop="5sp"
+                        android:textSize="20sp"
+                        android:layout_width="284dp"
+                        android:elevation="10dp"
+                        android:outlineAmbientShadowColor="@color/black"
+                        android:layout_height="59dp"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/inter"
+                        android:text="@string/sign_up_string"
+                        />
+
+                <TextView android:id="@+id/already_have_an_account_"
+                    android:fontFamily="@font/inter"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/sign_up_color"
+                    android:layout_marginLeft="76dp"
+                    android:layout_marginTop="600dp"
+                    android:layout_width="210.5dp"
+                    android:layout_height="28.5dp"
+                    android:text="@string/already_have_an_account__string"
+                    />
+
+                <TextView android:id="@+id/a_hub_where_whispers_echo_loudest"
+                    android:fontFamily="@font/inter"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/a_hub_where_whispers_echo_loudest_color"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="137dp"
+                    android:layout_width="367dp"
+                    android:layout_height="55dp"
+                    android:text="@string/a_hub_where_whispers_echo_loudest_string"
+                    />
+
+                <TextView android:id="@+id/shh_"
+                    android:fontFamily="@font/inter"
+                    android:textStyle="bold"
+                    android:textSize="40sp"
+                    android:textColor="@color/sign_up_color"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_width="285dp"
+                    android:layout_height="76dp"
+                    android:text="@string/shh__string"
+                    />
+
+                <TextView android:id="@+id/welcome_to"
+                    android:fontFamily="@font/inter"
+                    android:textStyle="bold"
+                    android:textSize="40sp"
+                    android:textColor="@color/sign_up_color"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="21dp"
+                    android:layout_width="309dp"
+                    android:layout_height="69dp"
+                    android:text="@string/welcome_to_string"
+                    />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

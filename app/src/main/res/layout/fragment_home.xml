@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <!-- Header Section -->
+    <RelativeLayout
+        android:id="@+id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Stylish App Name on the left -->
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Helping Hand"
+            android:textColor="@color/black2"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true" />
+
+        <!-- Bell Icon on the right -->
+        <ImageView
+            android:id="@+id/bell_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_notifications_24"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:elevation="4dp"
+            android:padding="4dp" />
+
+        <!-- Favorite Icon next to the bell icon -->
+        <ImageView
+            android:id="@+id/favorite_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_favorite_border_24"
+            android:layout_toStartOf="@id/bell_icon"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:elevation="4dp"
+            android:padding="4dp" />
+    </RelativeLayout>
+
+    <!-- Search Bar Section below the Header -->
+    <RelativeLayout
+        android:id="@+id/search_bar_container"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/header_layout"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/search_background"
+        android:padding="8dp">
+
+        <!-- Search icon on the left -->
+        <ImageView
+            android:id="@+id/search_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/baseline_search_24"
+            app:tint="@color/black2" />
+
+        <!-- EditText for search input -->
+        <EditText
+            android:id="@+id/search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/mic_icon"
+            android:layout_toEndOf="@id/search_icon"
+            android:background="@android:color/transparent"
+            android:hint="Search here"
+            android:minHeight="48dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textColor="#000000"
+            android:textColorHint="#757575"
+            android:textSize="16sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <!-- Mic icon on the right -->
+        <ImageView
+            android:id="@+id/mic_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/baseline_mic_24"
+            app:tint="@color/black2" />
+    </RelativeLayout>
+
+    <!-- res/layout/activity_main.xml -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/search_bar_container"
+        android:layout_marginTop="20dp"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- First RecyclerView container -->
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:padding="8dp"
+                android:scrollbars="horizontal" />
+
+            <!-- First additional RecyclerView -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:scrollbars="horizontal" />
+
+            <!-- Second additional RecyclerView -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:scrollbars="horizontal" />
+
+            <!-- Repeat for other RecyclerViews if needed -->
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

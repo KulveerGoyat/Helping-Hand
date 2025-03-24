@@ -1,0 +1,209 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+    <ScrollView android:id="@+id/iphone_13___13_pro___3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+
+            <RelativeLayout android:id="@+id/page_iphone_13___13_pro___3_ek1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View   android:id="@+id/_bg__iphone_13___13_pro___3_ek2"
+                    android:background="@drawable/_bg__iphone_13___13_pro___1_ek2_shape"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="411dp"
+                    android:layout_height="912dp" />
+
+                <TextView android:id="@+id/log_in_to_shh_"
+                    android:fontFamily="@font/inter"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:textColor="@color/sign_up_color"
+                    android:layout_marginStart="26dp"
+                    android:layout_marginTop="78dp"
+                    android:layout_width="369dp"
+                    android:layout_height="51dp"
+                    android:text="@string/log_in_to_shh__string"
+                    />
+
+                <ImageView android:id="@+id/reflecting_1"
+                    android:src="@drawable/reflecting_1"
+                    android:contentDescription="reflecting_1"
+                    android:layout_width="410dp"
+                    android:layout_height="911dp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/signupname"
+                    android:background="@drawable/rectangle_6_shape"
+                    android:layout_marginStart="42dp"
+                    android:layout_marginTop="344dp"
+                    android:layout_width="306dp"
+                    android:layout_height="49dp"
+                    android:paddingStart="20sp"
+                    android:hint="@string/enter_username_string"
+                    android:inputType="textEmailAddress"/>
+
+                <TextView android:id="@+id/username_or_email"
+                    android:fontFamily="@font/inter"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/username_or_email_color"
+                    android:layout_marginLeft="42dp"
+                    android:layout_marginTop="316dp"
+                    android:layout_width="162.5dp"
+                    android:layout_height="28.5dp"
+                    android:text="@string/username_or_email_string"
+                    />
+
+                <TextView android:id="@+id/password"
+                    android:fontFamily="@font/inter"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/username_or_email_color"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="423dp"
+                    android:layout_width="93.5dp"
+                    android:layout_height="28.5dp"
+                    android:text="@string/password_string"
+                    />
+
+                <TextView
+                    android:id="@+id/forgot_"
+                    android:layout_width="73.5dp"
+                    android:layout_height="28.5dp"
+                    android:layout_marginLeft="288dp"
+                    android:layout_marginTop="423dp"
+                    android:text="@string/forgot__string"
+                    android:textColor="@color/username_or_email_color"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/loginpswd"
+                    android:layout_width="306dp"
+                    android:layout_height="49dp"
+                    android:layout_marginStart="42dp"
+                    android:layout_marginTop="450dp"
+                    android:background="@drawable/rectangle_6_shape"
+                    android:paddingStart="20sp"
+                    android:hint="@string/enter_password_string"
+                    android:inputType="numberPassword" />
+
+
+                <RelativeLayout android:id="@+id/group_11"
+                    android:layout_marginTop="165dp"
+                    android:layout_marginStart="42dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/googlebtn"
+                        android:backgroundTint="@color/black"
+                        android:paddingStart="60dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="306dp"
+                        android:layout_height="56dp"
+                        android:fontFamily="@font/inter"
+                        android:textStyle="bold"
+
+                        android:textSize="15sp"
+                        android:text="@string/log_in_with_google_string"
+                        />
+
+                    <ImageView android:id="@+id/search_1"
+                        android:src="@drawable/search_1"
+                        android:contentDescription="search_1"
+                        android:layout_marginStart="70dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout android:id="@+id/group_13"
+                    android:layout_marginTop="247dp"
+                    android:layout_marginStart="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <View   android:id="@+id/line_3"
+                        android:background="@drawable/line_3_shape"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_width="90dp"
+                        android:layout_height="1dp" />
+
+                    <View   android:id="@+id/line_4"
+                        android:background="@drawable/line_4_shape"
+                        android:layout_marginStart="259dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_width="93dp"
+                        android:layout_height="1dp" />
+
+                    <TextView android:id="@+id/or_log_in_with_email"
+                        android:fontFamily="@font/inter"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/username_or_email_color"
+                        android:layout_marginLeft="105dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="161.5dp"
+                        android:layout_height="28.5dp"
+                        android:text="@string/or_log_in_with_email_string"
+                        />
+
+                </RelativeLayout>
+
+                <TextView android:id="@+id/don_t_have_an_account_"
+                    android:fontFamily="@font/inter"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/log_in_to_shh__color"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="589dp"
+                    android:layout_width="170dp"
+                    android:layout_height="28.5dp"
+                    android:text="@string/don_t_have_an_account__string"
+                    />
+
+                <TextView android:id="@+id/sign_up"
+                    android:fontFamily="@font/inter"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/username_or_email_color"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="589dp"
+                    android:layout_width="76.5dp"
+                    android:layout_height="28.5dp"
+                    android:text="@string/sign_up_string"
+                    />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/loginhome"
+                    android:fontFamily="@font/inter"
+                    android:backgroundTint="@color/black"
+                    android:layout_marginStart="110dp"
+                    android:layout_marginTop="530dp"
+                    android:layout_width="180dp"
+                    android:layout_height="56dp"
+                    android:text="@string/login_string"/>
+
+            </RelativeLayout>
+
+                </RelativeLayout>
+
+            </ScrollView>
+        </HorizontalScrollView>
